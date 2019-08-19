@@ -1,0 +1,7 @@
+[
+  {"text": "this is django", "author": "kennedy"},
+  {"text": "this is javascript", "author": "joyce"},
+  {"text": "this is typescript", "author": "brian"},
+  {"text": "this is node js", "author": "joe"},
+  {"text": "this is php", "author": "kevin"}
+]
