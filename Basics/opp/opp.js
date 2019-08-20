@@ -87,6 +87,7 @@ class Admin extends User{
 }
 
 
+
 const userThree =  new Admin("jane", 29)
 
 
@@ -135,6 +136,7 @@ const personTwo = new Users("Dont", "dont@gmail.com")
 
 
 console.log(personOne, personTwo)
+
 
 
 personTwo.login1()
