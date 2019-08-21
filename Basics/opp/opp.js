@@ -119,10 +119,12 @@ function Users(username, email) {
 
 Users.prototype.login1 = function () {
     console.log(`${this.username} has logged in`)
+    return this
 }
 
 Users.prototype.logout = function () {
     console.log(`${this.username} has logged out`)
+    return this
 }
 
 
@@ -149,6 +151,4 @@ console.log(personOne, personTwo)
 
 
 
-personTwo.login1()
-
-personTwo.logout()
+personTwo.login1().logout()
