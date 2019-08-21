@@ -84,11 +84,18 @@ class Admin extends User{
         })
     }
 
+
+
 }
 
 
 
 const userThree =  new Admin("jane", 29)
+
+userThree.login()
+
+
+
 
 
 console.log(userThree)
@@ -127,7 +134,15 @@ Users.prototype.logout = function () {
     return this
 }
 
+// Inheritance in prototype
 
+function Admin1(username, email, title) {
+    Users.call(this, username, email)
+    this.title = title
+
+}
+
+Admin1.prototype = Object.create(Users.prototype)
 
 
 //
@@ -146,8 +161,10 @@ const personOne = new Users("kenne", "mistakenz@ymail.com")
 
 const personTwo = new Users("Dont", "dont@gmail.com")
 
+const personThree = new Admin1("joe", "joe@gmail.com", "Manager")
 
-console.log(personOne, personTwo)
+
+console.log(personOne, personTwo, personThree)
 
 
 
