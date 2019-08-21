@@ -92,15 +92,15 @@ const userThree =  new Admin("jane", 29)
 
 
 console.log(userThree)
-//
-//
-// let users = [userOne, userTwo, userThree]
-//
-// console.log(users)
-//
-// userThree.deleteUser(userTwo)
-//
-// console.log(users)
+
+
+let users = [userOne, userTwo, userThree]
+
+console.log(users)
+
+userThree.deleteUser(userTwo)
+
+console.log(users)
 
 
 // constructors under the hood
@@ -110,10 +110,19 @@ function Users(username, email) {
     this.username = username
     this.email = email
 
-    this.login1 = function () {
-        console.log(`${this.username} has logged in`)
-    }
+    // this.login1 = function () {
+    //     console.log(`${this.username} has logged in`)
+    // }
 
+}
+
+
+Users.prototype.login1 = function () {
+    console.log(`${this.username} has logged in`)
+}
+
+Users.prototype.logout = function () {
+    console.log(`${this.username} has logged out`)
 }
 
 
@@ -141,3 +150,5 @@ console.log(personOne, personTwo)
 
 
 personTwo.login1()
+
+personTwo.logout()
