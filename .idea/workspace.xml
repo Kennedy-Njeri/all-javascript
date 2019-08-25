@@ -89,8 +89,8 @@
       <file leaf-file-name="fire.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firebase/fire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="-361">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -162,8 +162,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="255" />
+    <option name="x" value="165" />
+    <option name="y" value="209" />
     <option name="width" value="1331" />
     <option name="height" value="687" />
   </component>
@@ -294,15 +294,15 @@
       <workItem from="1565506252628" duration="14846000" />
       <workItem from="1566012608975" duration="6000" />
       <workItem from="1566029276188" duration="279000" />
-      <workItem from="1566074348204" duration="21499000" />
+      <workItem from="1566074348204" duration="22567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142779000" />
+    <option name="totallyTimeSpent" value="143847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="23" width="1331" height="687" extended-state="0" />
+    <frame x="165" y="209" width="1331" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -708,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firebase/fire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-361">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>

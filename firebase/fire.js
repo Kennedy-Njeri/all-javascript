@@ -1,4 +1,5 @@
 const list = document.querySelector("ul")
+const form = document.querySelector("form")
 
 
 const addRecipe = (recipe) => {
@@ -8,9 +9,7 @@ const addRecipe = (recipe) => {
     <li>
     <div>${recipe.title}</div>
      <div>${time}</div>
-    
-    </li>
-    
+    </li> 
     `
     //console.log(html)
 
@@ -29,4 +28,25 @@ db.collection('recepies').get().then((snapshot) => {
     })
 }).catch(err =>{
     console.log(err)
+})
+
+
+// add documents
+
+form.addEventListener("submit", e => {
+    // prevents page from reloading
+    e.preventDefault()
+
+    const now = new Date()
+    const recipe = {
+        title: form.recipe.value,
+        created_at: firebase.firestore.Timestamp.fromDate(now)
+    }
+
+    db.collection('recepies').add(recipe).then(() => {
+        console.log("recipe added")
+    }).catch(err => {
+        console.log(err.message)
+    })
+
 })
