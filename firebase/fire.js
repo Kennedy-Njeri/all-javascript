@@ -18,19 +18,48 @@ const addRecipe = (recipe, id) => {
 }
 
 
-
-
-
-db.collection('recepies').get().then((snapshot) => {
-    //console.log(snapshot.docs[0].data())
-    snapshot.docs.forEach(doc => {
-        console.log(doc.data())
-        console.log(doc.id)
-        addRecipe(doc.data(), doc.id)
+const deleteRecipe = (id) => {
+    const recipes = document.querySelectorAll('li')
+    recipes.forEach(recipe => {
+        if (recipe.getAttribute('data-id') === id){
+            recipe.remove()
+        }
     })
-}).catch(err =>{
-    console.log(err)
+}
+
+
+
+// get data 1st method
+
+// db.collection('recepies').get().then((snapshot) => {
+//     //console.log(snapshot.docs[0].data())
+//     snapshot.docs.forEach(doc => {
+//         console.log(doc.data())
+//         console.log(doc.id)
+//         addRecipe(doc.data(), doc.id)
+//     })
+// }).catch(err =>{
+//     console.log(err)
+// })
+
+// realtime listening
+//check snapshot methods e.g docChanges()
+db.collection('recepies').onSnapshot(snapshot => {
+    //console.log(snapshot.docChanges())
+    snapshot.docChanges().forEach(change => {
+        //console.log(change)
+        const doc = change.doc
+        //console.log(doc)
+        if(change.type === 'added'){
+            addRecipe(doc.data(), doc.id)
+        } else if (change.type === 'removed'){
+            deleteRecipe(doc.id)
+        }
+
+    })
 })
+
+
 
 
 // add documents
