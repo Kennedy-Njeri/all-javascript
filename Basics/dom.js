@@ -61,11 +61,11 @@ console.log(tags[0])
 
 // Adding & changing page content
 
-// const para1 = document.querySelector("p")
-//
-// //console.log(para1.innerText)
-//
-// para1.innerText = "This is javascript"
+const para1 = document.querySelector("p")
+
+//console.log(para1.innerText)
+
+para1.innerText = "This is javascript"
 
 
 // const paras = document.querySelectorAll("p")

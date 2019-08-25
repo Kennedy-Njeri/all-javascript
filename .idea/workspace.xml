@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1db098bd-2bf3-499a-8ef6-cf96e659a39b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/opp/opp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/opp/opp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/dom.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="opp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/opp/opp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+            <state relative-caret-position="151">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -74,29 +74,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shawn.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/ascnc/shawn.json">
+      <file leaf-file-name="dom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/dom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="900">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dom1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/dom1.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/firebase/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kevin.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basics/ascnc/kevin.json">
+      <file leaf-file-name="fire.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firebase/fire.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basics/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="404">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -123,7 +131,6 @@
         <option value="$PROJECT_DIR$/Basics/literals.js" />
         <option value="$PROJECT_DIR$/Basics/page.html" />
         <option value="$PROJECT_DIR$/Basics/index.html" />
-        <option value="$PROJECT_DIR$/Basics/dom.js" />
         <option value="$PROJECT_DIR$/Basics/dom1.js" />
         <option value="$PROJECT_DIR$/Basics/dom2.html" />
         <option value="$PROJECT_DIR$/Basics/index1.html" />
@@ -153,6 +160,9 @@
         <option value="$PROJECT_DIR$/Basics/ascnc/async.js" />
         <option value="$PROJECT_DIR$/Basics/opp/opp.html" />
         <option value="$PROJECT_DIR$/Basics/opp/opp.js" />
+        <option value="$PROJECT_DIR$/Basics/dom.js" />
+        <option value="$PROJECT_DIR$/firebase/fire.js" />
+        <option value="$PROJECT_DIR$/firebase/index.html" />
       </list>
     </option>
   </component>
@@ -166,8 +176,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="501" />
-    <option name="y" value="23" />
+    <option name="x" value="31" />
+    <option name="y" value="460" />
     <option name="width" value="1331" />
     <option name="height" value="687" />
   </component>
@@ -190,13 +200,7 @@
             <path>
               <item name="Javascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="Javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javascript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="opp" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Javascript" type="b2602c69:ProjectViewProjectNode" />
@@ -299,15 +303,15 @@
       <workItem from="1565506252628" duration="14846000" />
       <workItem from="1566012608975" duration="6000" />
       <workItem from="1566029276188" duration="279000" />
-      <workItem from="1566074348204" duration="16362000" />
+      <workItem from="1566074348204" duration="19117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137642000" />
+    <option name="totallyTimeSpent" value="140397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="501" y="23" width="1331" height="687" extended-state="0" />
+    <frame x="492" y="48" width="1331" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -320,10 +324,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33728814" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33728814" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24747866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24747866" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -346,20 +350,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basics/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/sandbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/control.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
@@ -625,23 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/ascnc/kevin.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -710,11 +683,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basics/opp/opp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+        <state relative-caret-position="151">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/dom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase/fire.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
