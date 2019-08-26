@@ -2,7 +2,6 @@ const list = document.querySelector("ul")
 const form = document.querySelector("form")
 
 
-
 const addRecipe = (recipe, id) => {
     let time = recipe.created_at.toDate()
 
@@ -17,7 +16,6 @@ const addRecipe = (recipe, id) => {
 
     list.innerHTML += html
 }
-
 
 
 const deleteRecipe = (id) => {
@@ -43,6 +41,7 @@ const deleteRecipe = (id) => {
 // }).catch(err =>{
 //     console.log(err)
 // })
+
 
 // realtime listening
 //check snapshot methods e.g docChanges()
