@@ -45,7 +45,6 @@ const deleteRecipe = (id) => {
 
 // realtime listening
 //check snapshot methods e.g docChanges()
-
 db.collection('recepies').onSnapshot(snapshot => {
     //console.log(snapshot.docChanges())
     snapshot.docChanges().forEach(change => {
@@ -62,9 +61,7 @@ db.collection('recepies').onSnapshot(snapshot => {
 })
 
 
-
 // add documents
-
 form.addEventListener("submit", e => {
     // prevents page from reloading
     e.preventDefault()
