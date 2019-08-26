@@ -2,6 +2,7 @@ const list = document.querySelector("ul")
 const form = document.querySelector("form")
 
 
+
 const addRecipe = (recipe, id) => {
     let time = recipe.created_at.toDate()
 
@@ -16,6 +17,7 @@ const addRecipe = (recipe, id) => {
 
     list.innerHTML += html
 }
+
 
 
 const deleteRecipe = (id) => {
@@ -58,7 +60,6 @@ db.collection('recepies').onSnapshot(snapshot => {
 
     })
 })
-
 
 
 
