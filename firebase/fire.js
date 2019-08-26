@@ -45,6 +45,7 @@ const deleteRecipe = (id) => {
 
 // realtime listening
 //check snapshot methods e.g docChanges()
+
 db.collection('recepies').onSnapshot(snapshot => {
     //console.log(snapshot.docChanges())
     snapshot.docChanges().forEach(change => {
