@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1db098bd-2bf3-499a-8ef6-cf96e659a39b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/fire.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/fire.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fire.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fire.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firebase/fire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="424">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basics/functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="659">
+              <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -98,9 +106,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="140" />
-    <option name="y" value="367" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="310" />
+    <option name="y" value="23" />
     <option name="width" value="1331" />
     <option name="height" value="687" />
   </component>
@@ -237,15 +245,15 @@
       <workItem from="1565506252628" duration="14846000" />
       <workItem from="1566012608975" duration="6000" />
       <workItem from="1566029276188" duration="279000" />
-      <workItem from="1566074348204" duration="29429000" />
+      <workItem from="1566074348204" duration="29941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150709000" />
+    <option name="totallyTimeSpent" value="151221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="367" width="1331" height="687" extended-state="0" />
+    <frame x="310" y="23" width="1331" height="687" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -535,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/ascnc/shawn.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -651,8 +652,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firebase/fire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="424">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="110" column="41" lean-forward="true" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
         </state>
       </provider>
     </entry>
