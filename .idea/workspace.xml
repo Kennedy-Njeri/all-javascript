@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db098bd-2bf3-499a-8ef6-cf96e659a39b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat_project/scripts/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat_project/scripts/chat.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="chat.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chat_project/scripts/chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="36">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -115,8 +114,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="629" />
-    <option name="y" value="23" />
+    <option name="x" value="235" />
+    <option name="y" value="495" />
     <option name="width" value="1331" />
     <option name="height" value="687" />
   </component>
@@ -274,15 +273,15 @@
       <workItem from="1565506252628" duration="14846000" />
       <workItem from="1566012608975" duration="6000" />
       <workItem from="1566029276188" duration="279000" />
-      <workItem from="1566074348204" duration="34266000" />
+      <workItem from="1566074348204" duration="34879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155546000" />
+    <option name="totallyTimeSpent" value="156159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="23" width="1331" height="687" extended-state="0" />
+    <frame x="235" y="495" width="1331" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -677,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat_project/scripts/chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="36">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
