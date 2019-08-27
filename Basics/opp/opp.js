@@ -169,3 +169,6 @@ console.log(personOne, personTwo, personThree)
 
 
 personTwo.login1().logout()
+
+
+
