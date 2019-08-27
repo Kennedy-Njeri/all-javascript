@@ -20,8 +20,16 @@ class Chatroom {
         const response = await this.chats.add(chat)
 
         return response
-
-
+    }
+    getChats(callback){
+        this.chats.onSnapshot(snapshot => {
+            snapshot.docChanges().forEach(change => {
+                if (change.type === "added"){
+                    // update Ui
+                    callback(change.doc.data())
+                }
+            })
+        })
     }
     
 }
@@ -29,10 +37,16 @@ class Chatroom {
 
 const chatroom = new Chatroom("gaming", "kennedy")
 
+
+
+chatroom.getChats(data => {
+    console.log(data)
+})
+
 //console.log(chatroom)
 
-chatroom.addChat("hello there").then(() => {
-    console.log("chat added")
-}).catch(err => {
-    console.log(err)
-})
+// chatroom.addChat("hello there").then(() => {
+//     console.log("chat added")
+// }).catch(err => {
+//     console.log(err)
+// })
