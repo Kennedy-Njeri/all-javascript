@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db098bd-2bf3-499a-8ef6-cf96e659a39b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/firebase/fire.js" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/fire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/firebase/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="fire.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firebase/fire.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -283,16 +282,15 @@
       <workItem from="1565506252628" duration="14846000" />
       <workItem from="1566012608975" duration="6000" />
       <workItem from="1566029276188" duration="279000" />
-      <workItem from="1566074348204" duration="38096000" />
+      <workItem from="1566074348204" duration="38746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159376000" />
+    <option name="totallyTimeSpent" value="160026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="791" y="23" width="1331" height="687" extended-state="0" />
-    <editor active="true" />
+    <frame x="562" y="23" width="1331" height="687" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -304,10 +302,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33728814" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33728814" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24747866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24747866" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -686,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firebase/fire.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>

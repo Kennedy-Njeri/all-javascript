@@ -50,7 +50,6 @@ class Chatroom {
 const chatroom = new Chatroom("general", "kennedy")
 
 
-
 chatroom.getChats(data => {
     console.log(data)
 })
