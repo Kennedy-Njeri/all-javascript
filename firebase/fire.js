@@ -1,5 +1,7 @@
 const list = document.querySelector("ul")
 const form = document.querySelector("form")
+const button = document.querySelector("button")
+
 
 
 const addRecipe = (recipe, id) => {
@@ -45,7 +47,8 @@ const deleteRecipe = (id) => {
 
 // realtime listening
 //check snapshot methods e.g docChanges()
-db.collection('recepies').onSnapshot(snapshot => {
+
+const unsub = db.collection('recepies').onSnapshot(snapshot => {
     //console.log(snapshot.docChanges())
     snapshot.docChanges().forEach(change => {
         //console.log(change)
@@ -93,4 +96,11 @@ list.addEventListener("click", e => {
         })
 
     }
+})
+
+
+// unsub from database
+button.addEventListener("click", () => {
+    unsub()
+    console.log("unsubscribed from collection changes")
 })
