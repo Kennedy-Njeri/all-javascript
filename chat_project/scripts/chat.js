@@ -62,6 +62,8 @@ chatroom.getChats(data => {
 //     console.log(err)
 // })
 
+
+
 setTimeout(() =>{
     chatroom.updateRoom('gaming')
     chatroom.updateName('kevin')
