@@ -5,7 +5,6 @@ class Chatroom {
         this.chats = db.collection("chats")
         this.unsub
     }
-
     async addChat(message){
         //chat object
         const now = new Date()
@@ -34,11 +33,9 @@ class Chatroom {
             })
         })
     }
-
     updateName(username){
         this.username = username
     }
-
     updateRoom(room){
         this.room = room
         console.log('room updated')
