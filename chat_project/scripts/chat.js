@@ -17,7 +17,6 @@ class Chatroom {
             created_at:firebase.firestore.Timestamp.fromDate(now)
 
         }
-
         const response = await this.chats.add(chat)
 
         return response
