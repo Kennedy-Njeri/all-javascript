@@ -5,6 +5,7 @@ class Chatroom {
         this.chats = db.collection("chats")
         this.unsub
     }
+
     async addChat(message){
         //chat object
         const now = new Date()
@@ -22,6 +23,7 @@ class Chatroom {
 
         return response
     }
+
     getChats(callback){
         this.unsub = this.chats.where('room', '==', this.room).orderBy('created_at').onSnapshot(snapshot => {
             snapshot.docChanges().forEach(change => {
