@@ -63,7 +63,6 @@ const unsub = db.collection('recepies').onSnapshot(snapshot => {
     })
 })
 
-
 // add documents
 form.addEventListener("submit", e => {
     // prevents page from reloading
