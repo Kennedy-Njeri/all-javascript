@@ -29,8 +29,6 @@ const deleteRecipe = (id) => {
     })
 }
 
-
-
 // get data 1st method
 
 // db.collection('recepies').get().then((snapshot) => {
@@ -94,7 +92,6 @@ list.addEventListener("click", e => {
 
     }
 })
-
 
 // unsub from database
 button.addEventListener("click", () => {
