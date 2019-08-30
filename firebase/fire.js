@@ -82,9 +82,7 @@ form.addEventListener("submit", e => {
 
 })
 
-
 // deleting data
-
 list.addEventListener("click", e => {
     //console.log(e)
     if (e.target.tagName === "BUTTON") {
