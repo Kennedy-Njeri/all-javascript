@@ -94,5 +94,18 @@ const symbolTwo = Symbol("a generic name")
 
 
 console.log(symbolOne, symbolTwo, typeof symbolOne)
+console.log(symbolOne == symbolTwo)
 
 
+const ken = {}
+
+ken.age = 30
+
+ken['car'] = 'yellow'
+
+
+ken[symbolOne] = 'gem'
+ken[symbolTwo] = 'lint'
+
+
+console.log(ken)
