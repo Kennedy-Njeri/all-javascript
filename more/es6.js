@@ -35,3 +35,21 @@ const person = {name: 'kennedy', location: 'kisumu', job: 'programmer'}
 const personClone = {...person, age: 22}
 
 console.log(personClone)
+
+
+
+// Sets do not allow duplicate of similar values
+const namesArray = ['kevin', 'clark', 'joe', 'kevin']
+console.log(namesArray)
+
+
+const nameSet = new Set(namesArray)
+
+console.log(nameSet)
+
+
+// convert the set of values back to arrays
+
+
+
+
