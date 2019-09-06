@@ -18,7 +18,7 @@ console.log(result)
 
 
 
-// spread syntax
+// spread syntax(Arrays)
 
 const people = ['ken', 'joy', 'mary']
 
@@ -26,3 +26,12 @@ const members = ['leon', 'mercy', 'collins', ...people]
 
 
 console.log(members)
+
+
+// spread syntax (objects) brand new copy of another object
+
+const person = {name: 'kennedy', location: 'kisumu', job: 'programmer'}
+
+const personClone = {...person, age: 22}
+
+console.log(personClone)
