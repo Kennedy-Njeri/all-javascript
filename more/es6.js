@@ -66,6 +66,7 @@ ages.delete(22)
 
 // check a value and also size of set
 console.log(ages, ages.size)
+console.log(ages.has(24), ages.has(22))
 
 
 
