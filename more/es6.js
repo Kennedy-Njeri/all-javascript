@@ -50,6 +50,23 @@ console.log(nameSet)
 
 // convert the set of values back to arrays
 
+const uniqueNames = [...new Set(nameSet)]
+
+console.log(uniqueNames)
+
+
+const ages = new Set()
+
+ages.add(22)
+ages.add(24)
+ages.add(25).add(24)
+ages.delete(22)
+
+
+
+// check a value and also size of set
+console.log(ages, ages.size)
+
 
 
 

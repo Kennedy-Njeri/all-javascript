@@ -52,8 +52,8 @@
       <file leaf-file-name="es6.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/more/es6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="284">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -138,8 +138,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="645" />
-    <option name="y" value="44" />
+    <option name="x" value="616" />
+    <option name="y" value="29" />
     <option name="width" value="1331" />
     <option name="height" value="687" />
   </component>
@@ -282,15 +282,15 @@
       <workItem from="1566074348204" duration="42232000" />
       <workItem from="1567501654447" duration="64000" />
       <workItem from="1567524444600" duration="735000" />
-      <workItem from="1567606297965" duration="2203000" />
+      <workItem from="1567606297965" duration="2603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166514000" />
+    <option name="totallyTimeSpent" value="166914000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="645" y="44" width="1331" height="687" extended-state="0" />
+    <frame x="616" y="29" width="1331" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -673,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/more/es6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="284">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
         </state>
       </provider>
     </entry>
