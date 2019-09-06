@@ -68,6 +68,23 @@ ages.delete(22)
 console.log(ages, ages.size)
 console.log(ages.has(24), ages.has(22))
 
+//clear set
 
+ages.clear()
+console.log(ages)
+
+
+// foreach on sets
+const scores2 = [
+    {player: "mark", scores:50},
+    {player: "joe", scores:30},
+    {player: "mark", scores:70},
+    {player: "ken", scores:60},
+    ]
+
+
+scores2.forEach(score => {
+    console.log(score.player, score.scores)
+})
 
 
