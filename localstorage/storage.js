@@ -56,9 +56,9 @@ console.log(todos)
 console.log(JSON.stringify(todos))
 localStorage.setItem('todos', JSON.stringify(todos))
 
-let ok = localStorage.getItem('todos')
+//let ok = localStorage.getItem('todos')
 
-console.log(JSON.parse(ok))
+//console.log(JSON.parse(ok))
 
 
 
