@@ -88,3 +88,11 @@ scores2.forEach(score => {
 })
 
 
+// symbols
+const symbolOne = Symbol("a generic name")
+const symbolTwo = Symbol("a generic name")
+
+
+console.log(symbolOne, symbolTwo, typeof symbolOne)
+
+
