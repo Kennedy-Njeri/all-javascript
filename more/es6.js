@@ -50,7 +50,7 @@ console.log(nameSet)
 
 // convert the set of values back to arrays
 
-const uniqueNames = [...new Set(nameSet)]
+const uniqueNames = [...new Set(namesArray)]
 
 console.log(uniqueNames)
 
