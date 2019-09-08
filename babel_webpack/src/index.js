@@ -1,19 +1,11 @@
-const greet = (name) => {
-    console.log(`hello ${name} please send your photos`)
-}
+import {styleBody, addTitle} from "./dom";
+
+'./dom'
 
 
-greet("kevin1")
-
-class Person {
-    constructor(name, age){
-        this.name = name
-        this.age = age
-    }
-
-}
+console.log("index file")
 
 
-const person = new Person('Kennedy', 28)
+addTitle("javascript is powerful")
 
-console.log(person)
+styleBody()
