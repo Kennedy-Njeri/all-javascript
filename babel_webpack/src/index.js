@@ -14,3 +14,6 @@ styleBody()
 const premPrices = getPremiumPrices(products1)
 
 console.log(products1, premPrices)
+
+
+console.log("test2")
