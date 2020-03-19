@@ -23,6 +23,7 @@ const users = [
 ]
 
 
+
 const premiumUsers = users.filter((user) => {
     return (user.premium)
 })
@@ -32,7 +33,6 @@ console.log(premiumUsers)
 
 
 // map method
-
 const prices = [20, 15, 25, 25, 30, 60, 5, 40]
 
 
@@ -70,7 +70,6 @@ console.log(saleProducts)
 
 
 // reduce method
-
 const scores1 = [20, 30, 60, 40, 70, 80, 100]
 
 
