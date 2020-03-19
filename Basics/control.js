@@ -38,6 +38,8 @@ while(i < fruits.length){
 }
 
 
+
+
 // Do while
 
 let z = 0
