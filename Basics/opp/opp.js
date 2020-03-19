@@ -95,10 +95,9 @@ const userThree =  new Admin("jane", 29)
 userThree.login()
 
 
-
-
-
 console.log(userThree)
+
+
 
 
 let users = [userOne, userTwo, userThree]

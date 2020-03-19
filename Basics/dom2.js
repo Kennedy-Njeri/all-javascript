@@ -19,7 +19,7 @@ const params = document.querySelectorAll("p")
 
 params.forEach(pa => {
     //console.log(pa.innerText)
-    //console.log(pa.textContent)
+    console.log(pa.textContent)
     if(pa.textContent.includes("error")){
         pa.classList.add("error")
     }

@@ -1,3 +1,5 @@
+// https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad
+
 // Filter Method
 
 const scores = [10, 15, 30, 25, 30, 40, 5, 45]
@@ -73,7 +75,7 @@ const scores1 = [20, 30, 60, 40, 70, 80, 100]
 
 
 // accumulator, current
-const  result = scores1.reduce((acc, curr) =>{
+const  result = scores1.reduce((acc, curr) => {
     if(curr > 50){
         acc++
     }
@@ -139,6 +141,7 @@ const names = ['kennedy', 'john', 'vincent', 'victor']
 names.reverse()
 
 console.log(names)
+
 
 
 
@@ -215,3 +218,10 @@ const promos = products1
 
 
 console.log(promos)
+
+
+const numbers1 = [10, 30, 50, 40, 60, 80, 70, 90, 5, "ken", "lin"]
+
+numbers1.forEach(num => {
+    console.log(num)
+})

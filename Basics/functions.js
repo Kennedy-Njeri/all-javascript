@@ -109,15 +109,19 @@ const bill = (products, tax) => {
     let total = 0
 
     for(i = 0; i < products.length; i++){
+
         total += products[i] + products[i] * tax
+        console.log(products[i])
     }
 
     return total
+
 
 }
 
 
 console.log(bill([10, 15, 30], 0.5))
+
 
 
 

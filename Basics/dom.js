@@ -65,7 +65,7 @@ const para1 = document.querySelector("p")
 
 //console.log(para1.innerText)
 
-para1.innerText = "This is javascript"
+para1.innerText = "This is javascrip"
 
 
 // const paras = document.querySelectorAll("p")
@@ -83,7 +83,7 @@ const context = document.querySelector(".content")
 
 //context.innerHTML += "<h2>This is a new h2</h2>"
 
-const people = ["kevin", "kennedy", "alice", "shawn"]
+const people = ["kevin", "kennedy1", "alice", "shawn"]
 
 
 people.forEach(person => {
