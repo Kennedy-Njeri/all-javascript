@@ -7,6 +7,7 @@ for (let i=0; i < 5; i++) {
 console.log("loop Finished")
 
 
+
 const names = ["ken", "victor", "wanjiru", "lindah"]
 
 
@@ -25,6 +26,7 @@ for(let i = 0; i < names.length; i++){
 //     console.log("i loop", i)
 //     i++
 // }
+
 
 const fruits = ["mango", "pineapple", "orange", "avocado"]
 
