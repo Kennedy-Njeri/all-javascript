@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1db098bd-2bf3-499a-8ef6-cf96e659a39b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/dom2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/dom2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/opp/opp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/opp/opp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/page.html" afterDir="false" />
-    </list>
+    <list default="true" id="1db098bd-2bf3-499a-8ef6-cf96e659a39b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/opp/opp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
@@ -33,17 +25,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basics/array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="226">
+              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Basics/control.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="76">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -124,13 +116,15 @@
         <option value="$PROJECT_DIR$/Basics/dom.js" />
         <option value="$PROJECT_DIR$/Basics/functions.js" />
         <option value="$PROJECT_DIR$/Basics/dom2.js" />
-        <option value="$PROJECT_DIR$/Basics/array.js" />
         <option value="$PROJECT_DIR$/Basics/opp/opp.js" />
+        <option value="$PROJECT_DIR$/Basics/array.js" />
+        <option value="$PROJECT_DIR$/Basics/control.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="346" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="109" />
+    <option name="y" value="94" />
     <option name="width" value="1331" />
     <option name="height" value="710" />
   </component>
@@ -298,15 +292,16 @@
       <workItem from="1581703395168" duration="1561000" />
       <workItem from="1582300126734" duration="2831000" />
       <workItem from="1583473269144" duration="5376000" />
-      <workItem from="1584595823321" duration="280000" />
+      <workItem from="1584595823321" duration="532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10048000" />
+    <option name="totallyTimeSpent" value="10300000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="78" width="1331" height="710" extended-state="0" />
+    <frame x="109" y="94" width="1331" height="710" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.261443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,20 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basics/control.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basics/dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
@@ -491,6 +472,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/babel_webpack/after.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basics/control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

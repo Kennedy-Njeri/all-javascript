@@ -18,6 +18,7 @@ for(let i = 0; i < names.length; i++){
     console.log(html)
 }
 
+
 //while loop
 
 // let i = 0
@@ -36,7 +37,6 @@ while(i < fruits.length){
     console.log("The fruit list", fruits[i])
     i++
 }
-
 
 
 
