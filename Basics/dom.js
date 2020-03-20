@@ -79,7 +79,6 @@ para1.innerText = "This is javascrip"
 
 
 
-
 // inside a class
 const context = document.querySelector(".content")
 
@@ -93,8 +92,8 @@ people.forEach(person => {
 })
 
 
-// Getting & setting Attributes
 
+// Getting & setting Attributes
 
 const link = document.querySelector("a")
 
