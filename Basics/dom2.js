@@ -41,6 +41,7 @@ title.classList.toggle("test")
 // writing 2x removes the class test which was assigned earlier
 
 
+
 // Node Relationships Parents, Children & Siblings
 
 const article = document.querySelector("article")
