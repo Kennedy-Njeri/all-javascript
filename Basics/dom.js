@@ -47,6 +47,8 @@ const errors1 = document.getElementsByClassName("error")
 
 console.log(errors1[0])
 
+
+
 // get elements by their tag name
 
 const tags = document.getElementsByTagName("p")
