@@ -118,6 +118,9 @@ console.log(markTotal)
 
 
 
+
+
+
 // find method
 
 const scores3 = [30, 50, 20, 60, 75, 40, 70]
@@ -224,3 +227,4 @@ const numbers1 = [10, 30, 50, 40, 60, 80, 70, 90, 5, "ken", "lin"]
 numbers1.forEach(num => {
     console.log(num)
 })
+
